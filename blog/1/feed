@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://vgtc.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>admin&#039;s blog</title>
+ <link>http://vgtc.org/blogs/admin</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Welcome to the new VGTC Community </title>
+ <link>http://vgtc.org/blog/welcome-new-vgtc-community</link>
+ <description> &lt;p&gt;Welcome to the new VGTC website and online community. &amp;nbsp;The VGTC is a formal subcommittee of the Technical Activities Board (TAB) of the IEEE Computer Society. The VGTC provides technical leadership and organization for technical activities in the areas of visualization, computer graphics, virtual and augmented reality, and interaction.&lt;/p&gt;&lt;p&gt;This site represents a great step forward for the VGTC, offering many features including:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;extensive archives of videos of conference talks from VGTC-sponsored events,&lt;/li&gt;&lt;li&gt;discussion forum capabilities on all videos and archive items, using common logins,&lt;/li&gt;&lt;li&gt;upcoming VGTC event deadlines and CFPs,&lt;/li&gt;&lt;li&gt;an active job board,&lt;/li&gt;&lt;li&gt;annoucements of technical and service awards,&lt;/li&gt;&lt;li&gt;a blog featuring issues relevant to our community,&lt;/li&gt;&lt;li&gt;social media integration,&lt;/li&gt;&lt;li&gt;more information about the activities and policies of the Technical Committee.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We hope that the interactive features such as the discussion forums will be a place for open discussion about research after the conferences are over. &amp;nbsp;They can be a place to raise questions for authors, brainstorm with the community about next steps, point out related work, request datasets and source code, and more. &amp;nbsp;We have the ability to post additional files along with each talk, so authors: if you have items you want to archive alongside your talk, please get in touch!&lt;/p&gt;&lt;p&gt;This new site has been quite a while in the making, and wouldn&amp;#39;t have been possible without the dedication of Meghan Haley of Junction Publishing, VGTC Online Communities Chair Christopher Collins, the VGTC Chair Klaus Mueller and past Chair Amitabh Varshney, Torsten Möller, Daniel Acevedo, and various students and advisors who have given their opinion and assistance to this project along the way. &amp;nbsp;The project has been funded by VGTC and our video archives are generously sponsored by Tableau.&lt;/p&gt;&lt;div&gt;The VGTC goals are to contribute to our members&amp;rsquo; professional development and advancement, help advance the state-of-the-art in visualization and computer graphics, promote national agendas in visualization and computer graphics, and foster inter-disciplinary interaction in all our all our activities.&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;We hope that this new website will support these goals in creating a space for members of VGTC to reflect on past conferences, discuss research, celebrate the achievements of colleagues, and become involved in the activities of the TC. &amp;nbsp;We have more features planned for the future, and would be happy to receive community feedback at web@vgtc.org!&lt;/div&gt; </description>
+ <pubDate>Fri, 24 Oct 2014 18:36:01 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">499 at http://vgtc.org</guid>
+</item>
+</channel>
+</rss>

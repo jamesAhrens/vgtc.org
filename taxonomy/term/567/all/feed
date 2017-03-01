@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://vgtc.org/taxonomy/term/567/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Keynote Speaker</title>
+    <link>http://vgtc.org/taxonomy/term/567/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Inside Information - From Martian Meteorites to Mummies </title>
+    <link>http://vgtc.org/archives/pacific-vis/2015/inside-information-martian-meteorites-mummies</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Anders Ynnerman&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;In the last decades imaging modalities have advanced beyond recognition and data of rapidly increasing size and quality can be captured with high speed. This talk will show how data visualization can be used to provide public visitor venues, such as museums, science centers and zoos with unique interactive learning experiences. By combining data visualization techniques with technologies such as interactive multi-touch tables and intuitive user interfaces, visitors can conduct guided browsing of large volumetric image data.&lt;/p&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/pacific-vis/2015/keynote-speaker&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Keynote Speaker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 23 Apr 2015 07:06:58 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">1278 at http://vgtc.org</guid>
+  </item>
+  <item>
+    <title>Visualization and Knowledge Automation: Enterprise 5.0 and Parallel Evolution</title>
+    <link>http://vgtc.org/archives/pacific-vis/2015/visualization-and-knowledge-automation-enterprise-50-and-parallel</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fei-Yue Wang&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Rapid development of big data, cloud computing, and internet of things has initiated a new revolution in sciences, technologies, and industries, and are dramatically changing the pattern of our economic production and social living.&lt;/p&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/pacific-vis/2015/keynote-speaker&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Keynote Speaker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 23 Apr 2015 07:06:58 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">1279 at http://vgtc.org</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://vgtc.org/taxonomy/term/553/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Capstone</title>
+    <link>http://vgtc.org/taxonomy/term/553/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Digital Fear and Pain Control and the Oculus Rift: SnowWorld, SpiderWorld, and World Trade Center World</title>
+    <link>http://vgtc.org/archives/vr/2014/digital-fear-and-pain-control-and-oculus-rift-snowworld-spiderworld-and-world-trade</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Hunter Hoffman&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Chilldren/adults with severe burn wounds often endure uncontrolled pain during wound care. Bandages are changed, and wounds cleaned frequently to prevent infection. Physical therapy skin stretching exercises can also be painful. Immersive virtual reality is proving valuable as an adjunctive non-pharmacologic analgesic. Patients &quot;go into&quot; the computer generated world to escape their pain.&lt;/p&gt;&lt;div class=&quot;field field-name-field-doi-bookmark field-type-link-field field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;DOI Bookmark:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;http://dx.doi.org/10.1109/VR.2014.6802040&quot;&gt;http://dx.doi.org/10.1109/VR.2014.6802040&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/vr/2014/capstone&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Capstone&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 23 Apr 2015 03:13:09 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">1129 at http://vgtc.org</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+# Site settings
+title: IEEE VGTC
+email: web@vgtc.org
+description: > # this means to ignore newlines until "baseurl:"
+  Website for IEEE VIS.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vgtc.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store']
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      contact: "web@vgtc.org"

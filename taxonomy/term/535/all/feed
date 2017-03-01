@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://vgtc.org/taxonomy/term/535/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Capstone Speaker</title>
+    <link>http://vgtc.org/taxonomy/term/535/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>The Value of Visualization...and Why Interaction Matters </title>
+    <link>http://vgtc.org/archives/eurovis/2014/value-visualizationand-why-interaction-matters</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;John T. Stasko&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Visualization researchers need to do a better job communicating the value of our field externally. Visu- alization, by its very nature, provides inherent challenges to doing this. In this talk I will explain these challenges and articulate my views on the value of visualization, including its unique capabilities for data presentation and analysis. I will describe the advantages of interaction, and discuss in depth why interaction is so important to our field and how it has been under-utilized to date.&lt;/p&gt;&lt;div class=&quot;field field-name-field-running-time field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Running Time:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;01:01:58&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/eurovis/2014/capstone-speaker&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Capstone Speaker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 13 Feb 2015 22:33:30 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">811 at http://vgtc.org</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://vgtc.org/taxonomy/term/538/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Keynote</title>
+    <link>http://vgtc.org/taxonomy/term/538/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>Keynote – Bioinformatics of Non-coding RNAs </title>
+    <link>http://vgtc.org/archives/eurovis/2013/keynote-%E2%80%93-bioinformatics-non-coding-rnas</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Peter Stadler &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;RNA has long been considered a boring intermediate between DNA, the genomic storage device, and proteins performing nearly all important functions in the cell. With the advent of high throughput se- quencing and the technical capability of unbiased and reasonably complete measurements of RNA and protein complements, this view as changed dramatically. The overwhelming majority of transcribed RNA exerts in function, which most likely is of regulatory nature, without ever being translated in protein.&lt;/p&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/eurovis/2013/keynote&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Keynote&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 23 Feb 2015 02:01:09 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">863 at http://vgtc.org</guid>
+  </item>
+  <item>
+    <title>Keynote – Visualization in the Neuroscience Era: The Road Ahead </title>
+    <link>http://vgtc.org/archives/eurovis/2013/keynote-%E2%80%93-visualization-neuroscience-era-road-ahead</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Hans-Christian Hege &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;The brain, as the organ of perception, memory, emotion and action, as well as the most complex thing in the (known) universe, exerts a compelling fascination to researchers. According to many scientists, we are at the beginning of a new era in neuroscience that is characterized by particularly rapid knowledge advancement, mainly due to new and powerful experimental techniques. Possibly this will lead to an understanding of the fundamental principles of brain function.&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/eurovis/2013/keynote&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Keynote&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 23 Feb 2015 02:01:09 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">864 at http://vgtc.org</guid>
+  </item>
+  </channel>
+</rss>

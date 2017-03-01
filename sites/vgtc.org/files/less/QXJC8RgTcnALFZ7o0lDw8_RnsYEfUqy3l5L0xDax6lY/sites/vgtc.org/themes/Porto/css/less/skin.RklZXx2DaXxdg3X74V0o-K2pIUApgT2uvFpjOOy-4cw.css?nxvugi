@@ -1,0 +1,268 @@
+@import "color";
+h3,
+h4,
+h5 {
+  color: #0574ab;
+}
+a {
+  color: #0574ab;
+}
+a:hover {
+  color: #0685c4;
+}
+a:active {
+  color: #046392;
+}
+.alternative-font {
+  color: #0574ab;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  background-color: #0574ab;
+}
+.btn-primary {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #055eab;
+  background-image: -moz-linear-gradient(top,#0574ab,#053dab);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#0574ab),to(#053dab));
+  background-image: -webkit-linear-gradient(top,#0574ab,#053dab);
+  background-image: -o-linear-gradient(top,#0574ab,#053dab);
+  background-image: linear-gradient(to bottom,#0574ab,#053dab);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0574ab', endColorstr='#ff053caa', GradientType=0);
+  border-color: #053dab #053dab #032261;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #fff;
+  background-color: #053dab;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #042b79 \9;
+}
+body.boxed div.body {
+  border-top-color: #0574ab;
+}
+section.highlight {
+  background-color: #0574ab;
+  border-color: #046392;
+}
+section.page-top h1 {
+  border-bottom-color: #0574ab;
+}
+section.toggle label {
+  color: #0574ab;
+  border-left-color: #0574ab;
+}
+section.toggle.active > label {
+  background-color: #99dbfc;
+  border-color: #0574ab;
+}
+section.page-top.custom-product {
+  background-color: #046392;
+  border-top-color: #0574ab;
+}
+div.feature-box div.feature-box-icon {
+  background-color: #0574ab;
+}
+ul.timeline li div.featured-box div.box-content {
+  border-top-color: #0574ab;
+}
+a.thumb-info span.thumb-info-type {
+  background-color: #0574ab;
+}
+a.thumb-info span.thumb-info-action-icon {
+  background-color: #0574ab;
+}
+.thumbnail span.zoom {
+  background-color: #0574ab;
+}
+span.thumb-info-social-icons a {
+  background-color: #0574ab;
+}
+.inverted {
+  background-color: #0574ab;
+}
+div.tabs ul.nav-tabs a,
+div.tabs ul.nav-tabs a:hover {
+  color: #0574ab;
+}
+div.tabs ul.nav-tabs a:hover {
+  border-top-color: #0574ab;
+}
+div.tabs ul.nav-tabs li.active a {
+  border-top-color: #0574ab;
+  color: #0574ab;
+}
+ul.list.icons li i {
+  color: #0574ab;
+}
+i.icon-featured {
+  background-color: #0574ab;
+}
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #AAA;
+  -webkit-box-shadow: 0 0 8px 2px #EBEBEB;
+  -moz-box-shadow: 0 0 8px 2px #EBEBEB;
+  box-shadow: 0 0 8px 2px #EBEBEB;
+}
+#search-block-form .form-actions,
+#search-block-form--2 .form-actions {
+  background-color: #0574ab;
+}
+header nav ul.nav-main ul.dropdown-menu,
+header nav ul.nav-main li.dropdown.open a.dropdown-toggle,
+header nav ul.nav-main li.active a,
+header nav ul.nav-main li.dropdown:hover a {
+  color: #FFF;
+  background-color: #0574ab !important;
+}
+header nav ul.nav-main ul.dropdown-menu li:hover > a {
+  background-color: #0696dd !important;
+}
+header nav ul.nav-main ul.dropdown-menu {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #055eab;
+  background-image: -moz-linear-gradient(top,#0574ab,#053dab);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#0574ab),to(#053dab));
+  background-image: -webkit-linear-gradient(top,#0574ab,#053dab);
+  background-image: -o-linear-gradient(top,#0574ab,#053dab);
+  background-image: linear-gradient(to bottom,#0574ab,#053dab);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0574ab', endColorstr='#ff053caa', GradientType=0);
+  border-color: #053dab #053dab #032261;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+header nav ul.nav-main ul.dropdown-menu:hover,
+header nav ul.nav-main ul.dropdown-menu:focus,
+header nav ul.nav-main ul.dropdown-menu:active,
+header nav ul.nav-main ul.dropdown-menu.active,
+header nav ul.nav-main ul.dropdown-menu.disabled,
+header nav ul.nav-main ul.dropdown-menu[disabled] {
+  color: #fff;
+  background-color: #053dab;
+}
+header nav ul.nav-main ul.dropdown-menu:active,
+header nav ul.nav-main ul.dropdown-menu.active {
+  background-color: #042b79 \9;
+}
+header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a {
+  background: none !important;
+}
+header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a:hover {
+  background: #0685c4 !important;
+}
+header.single-menu nav ul.nav-main li.active > a {
+  color: #0574ab;
+  border-top: 5px solid #0574ab;
+  background-color: transparent !important;
+}
+header.darken-top-border {
+  border-top: 5px solid #046392;
+}
+header.colored div.header-top {
+  background-color: #0574ab;
+}
+header.colored div.header-top ul.nav-top li a:hover {
+  background-color: #0685c4 !important;
+}
+header.flat-menu nav ul.nav-main li > a,
+header.flat-menu nav ul.nav-main li.active > a {
+  color: #666;
+}
+header.flat-menu nav ul.nav-main li.active > a {
+  color: #0574ab;
+  background-color: transparent !important;
+}
+header.flat-menu nav ul.nav-main li.dropdown:hover a {
+  color: #FFF;
+  background-color: #0574ab !important;
+}
+div.slider div.tp-bannertimer {
+  background-color: #0574ab;
+}
+div.home-intro p em {
+  color: #0696dd;
+}
+div.home-concept strong {
+  color: #0574ab;
+}
+blockquote.testimonial {
+  background: #0685c4;
+}
+div.testimonial-arrow-down {
+  border-top-color: #0685c4;
+}
+div.recent-posts div.date span.month,
+article.post div.post-date span.month {
+  background-color: #0574ab;
+}
+div.recent-posts div.date span.day,
+article.post div.post-date span.day {
+  color: #0574ab;
+}
+div.pricing-table div.most-popular {
+  border-color: #0574ab;
+}
+div.pricing-table div.most-popular h3 {
+  background-color: #04608d;
+  background-image: -moz-linear-gradient(top,#0574ab,#034261);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#0574ab),to(#034261));
+  background-image: -webkit-linear-gradient(top,#0574ab,#034261);
+  background-image: -o-linear-gradient(top,#0574ab,#034261);
+  background-image: linear-gradient(to bottom,#0574ab,#034261);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0574ab', endColorstr='#ff024160', GradientType=0);
+}
+footer div.footer-ribon {
+  background: #0574ab;
+}
+footer div.footer-ribon::before {
+  border-right-color: #034261;
+}

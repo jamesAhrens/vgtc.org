@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://vgtc.org/taxonomy/term/536/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Keynote Speaker</title>
+    <link>http://vgtc.org/taxonomy/term/536/all</link>
+    <description></description>
+    <language>en</language>
+          <item>
+    <title>3D Vision in a Changing World </title>
+    <link>http://vgtc.org/archives/eurovis/2014/3d-vision-changing-world</link>
+    <description>&lt;div class=&quot;field field-name-field-authors field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Authors:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Andrew Fitzgibbon &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;Three-dimensional reconstruction from images has been a tremendous success-story of computer vision, with city-scale reconstruction now a reality. However, these successes apply almost exclusively in a static world, where the only motion is that of the camera. Even with the advent of realtime depth cameras, full 3D modelling of dynamic scenes lags behind the rigid-scene case, and for many objects of interest (e.g. animals moving in natural environments), depth sensing remains challenging.&lt;/p&gt;&lt;div class=&quot;field field-name-field-running-time field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Running Time:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;00:51:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Archives:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/archives/eurovis/2014/keynote-speaker&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Keynote Speaker&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-weight field-type-number-integer field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Weight:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 22 Apr 2015 14:20:26 +0000</pubDate>
+ <dc:creator>admin</dc:creator>
+ <guid isPermaLink="false">812 at http://vgtc.org</guid>
+  </item>
+  </channel>
+</rss>
