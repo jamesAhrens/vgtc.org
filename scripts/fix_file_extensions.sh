@@ -10,7 +10,8 @@ FILELIST="annual-meeting
 calendar
 executive-committee
 membership
-sitemap"
+sitemap
+virtual-reality-technical-achievement-award"
 
 for file in $FILELIST; do
     mv _site/${file}.html _site/${file}
