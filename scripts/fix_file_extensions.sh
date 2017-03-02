@@ -12,7 +12,8 @@ executive-committee
 membership
 sitemap
 virtual-reality-technical-achievement-award
-visualization-career-award"
+visualization-career-award
+visualization-technical-achievement-award"
 
 for file in $FILELIST; do
     mv _site/${file}.html _site/${file}
