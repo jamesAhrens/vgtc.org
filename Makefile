@@ -9,6 +9,7 @@ all: site
 site:
 	./scripts/check_duplicate_permalinks.py
 	jekyll build
+	./scripts/fix_file_extensions.sh
 
 production: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)

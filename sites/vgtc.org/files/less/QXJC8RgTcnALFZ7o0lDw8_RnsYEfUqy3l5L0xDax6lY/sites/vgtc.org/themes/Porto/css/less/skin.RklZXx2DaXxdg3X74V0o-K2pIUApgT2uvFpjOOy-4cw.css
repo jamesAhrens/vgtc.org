@@ -1,4 +1,4 @@
-@import "color";
+/* @import "color";  Don't import since it doesn't appear to exist even on legacy VGTC site... */
 h3,
 h4,
 h5 {
