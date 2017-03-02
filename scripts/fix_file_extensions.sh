@@ -7,9 +7,10 @@
 # Move straggling pages
 
 FILELIST="annual-meeting
-executive-committee
 calendar
-membership"
+executive-committee
+membership
+sitemap"
 
 for file in $FILELIST; do
     mv _site/${file}.html _site/${file}
