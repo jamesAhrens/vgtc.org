@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# for i in `find _site/year/{2016,2017} -name "*.html"`; do
-#     mv $i `echo $i | sed s/.html$//`;
-# done
+for i in `find _site/archives _site/about_us _site/about-us _site/content -name "*.html"`; do
+    mv $i `echo $i | sed s/.html$//`;
+done
 
 # Move straggling pages
 
@@ -13,8 +13,7 @@ membership
 sitemap
 virtual-reality-technical-achievement-award
 visualization-career-award
-visualization-technical-achievement-award
-about-us/awards/service-award/ieee-meritorious-award-amitabh-varshney-2012"
+visualization-technical-achievement-award"
 
 for file in $FILELIST; do
     mv _site/${file}.html _site/${file}
