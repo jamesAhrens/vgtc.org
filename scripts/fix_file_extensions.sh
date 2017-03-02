@@ -8,6 +8,7 @@
 
 FILELIST="annual-meeting
 executive-committee
+calendar
 membership"
 
 for file in $FILELIST; do
