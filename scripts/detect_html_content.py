@@ -93,4 +93,5 @@ for candidate in candidates:
     print >>output, "---"
     print >>output, "\n".join(main)
     output.close()
-    exit(0)
+    subprocess.call(["rm", candidate])
+

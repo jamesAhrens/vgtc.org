@@ -1,0 +1,23 @@
+---
+title: Computation-to-Core Mapping Strategies for Iso-Surface Volume Rendering on GPUs
+layout: default
+permalink: /archives/pacific-vis/2015/computation-core-mapping-strategies-iso-surface-volume-rendering-gpus
+breadcrumb:
+  - ['Home', '/']
+  - ['conference archives', '/archives']
+  - ['Pacific Vis', '/archives/pacific-vis']
+  - ['2015', '/archives/pacific-vis/2015']
+  - ['Notes', '/archives/pacific-vis/2015/notes']
+---
+
+
+  
+
+      <span property="dc:title" content="Computation-to-Core Mapping Strategies for Iso-Surface Volume Rendering on GPUs" class="rdf-meta element-hidden"></span>
+
+  
+
+  <div class="content">
+
+    <div class="field field-name-field-authors field-type-text field-label-above"><div class="field-label">Authors:&nbsp;</div><div class="field-items"><div class="field-item even">Junpeng Wang, Fei Yang, Yong Cao</div></div></div><div class="field-label">Abstract:&nbsp;</div>Ray casting algorithm is a major component of the direct volume rendering, which exhibits inherent parallelism, making it suitable for graphics processing units (GPUs). However, blindly mapping the ray casting algorithm on a GPU’s complex parallel architecture can result in a magnitude of performance loss. In this paper, a novel computation-to-core mapping strategy, called Warp Marching, for the texture-based iso-surface volume rendering is introduced. We evaluate and compare this new strategy with the most commonly used existing mapping strategy. Texture cache performance and load balancing are the two major evaluation factors since they have significant consequences on the overall rendering performance. Through a series of real-life data experiments, we conclude that the texture cache performances of these two computation-tocore mapping strategies are significantly affected by the viewing direction; and the Warp Marching performs better in balancing workloads among threads and concurrent hardware components of a GPU.<div id="disqus_thread"><noscript><p><a href="http://vgtc.disqus.com/?url=http%3A%2F%2Fvgtc.org%2Farchives%2Fpacific-vis%2F2015%2Fcomputation-core-mapping-strategies-iso-surface-volume-rendering-gpus">View the discussion thread.</a></p></noscript></div>  </div>
+

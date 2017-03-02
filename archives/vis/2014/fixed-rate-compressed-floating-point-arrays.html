@@ -1,0 +1,23 @@
+---
+title: Fixed-Rate Compressed Floating-Point Arrays
+layout: default
+permalink: /archives/vis/2014/fixed-rate-compressed-floating-point-arrays
+breadcrumb:
+  - ['Home', '/']
+  - ['conference archives', '/archives']
+  - ['VIS', '/archives/vis']
+  - ['2014', '/archives/vis/2014']
+  - ['SciVis Papers', '/archives/vis/2014/scivis-papers']
+---
+
+
+  
+
+      <span property="dc:title" content="Fixed-Rate Compressed Floating-Point Arrays" class="rdf-meta element-hidden"></span>
+
+  
+
+  <div class="content">
+
+    <div class="field field-name-field-authors field-type-text field-label-above"><div class="field-label">Authors:&nbsp;</div><div class="field-items"><div class="field-item even">Peter Lindstrom</div></div></div><div class="field field-name-field-doi-bookmark field-type-link-field field-label-above"><div class="field-label">DOI Bookmark:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="http://dx.doi.org/10.1109/tvcg.2014.2346458">http://dx.doi.org/10.1109/tvcg.2014.2346458</a></div></div></div><div class="field field-name-field-keywords field-type-text field-label-above"><div class="field-label">Keywords:&nbsp;</div><div class="field-items"><div class="field-item even">Data compression, floating-point arrays, orthogonal block transform, embedded coding.</div></div></div><div class="field-label">Abstract:&nbsp;</div>Current compression schemes for floating-point data commonly take fixed-precision values and compress them to a variable-length bit stream, complicating memory management and random access.  We present a fixed-rate, near-lossless compression scheme that maps small blocks of 4^d values in d dimensions to a fixed, user-specified number of bits per block, thereby allowing read and write random access to compressed floating-point data at block granularity.  Our approach is inspired by fixed-rate texture compression methods widely adopted in graphics hardware, but has been tailored to the high dynamic range and precision demands of scientific applications.  Our compressor is based on a new, lifted, orthogonal block transform and embedded coding, allowing each per-block bit stream to be truncated at any point if desired, thus facilitating bit rate selection using a single compression scheme.  To avoid compression or decompression upon every data access, we employ a software write-back cache of uncompressed blocks.  Our compressor has been designed with computational simplicity and speed in mind to allow for the possibility of a hardware implementation, and uses only a small number of fixed-point arithmetic operations per compressed value.  We demonstrate the viability and benefits of lossy compression in several applications, including visualization, quantitative data analysis, and numerical simulation.<div id="disqus_thread"><noscript><p><a href="http://vgtc.disqus.com/?url=http%3A%2F%2Fvgtc.org%2Farchives%2Fvis%2F2014%2Ffixed-rate-compressed-floating-point-arrays">View the discussion thread.</a></p></noscript></div>  </div>
+
