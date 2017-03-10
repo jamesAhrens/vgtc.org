@@ -42,12 +42,13 @@ def delete_objects(objs):
 def put_objects(objs):
     r = re.compile(r'/([^/]+)$')
     for obj in objs:
-        mime_type = my_guess_mimetype(obj)
         try:
+            mime_type = my_guess_mimetype(obj)
             f = open(obj)
         except IOError:
             name2 = r.sub('/__FIX_ON_S3_PUSH__\\1', obj)
             print "Couldn't open file. Maybe %s is the right name?" % name2
+            mime_type = my_guess_mimetype(name2)
             f = open(name2)
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
