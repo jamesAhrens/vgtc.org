@@ -2,7 +2,7 @@
 
 # for i in `find _site/archives _site/about_us _site/about-us _site/content -name "*.html"`; do
 for i in `find _site -name "*.html"`; do
-    if [[ "$i" != "./_site/index.html" ]]; then
+    if [[ "$i" != "_site/index.html" ]]; then
 	mv $i `echo $i | sed s/.html$//`;
     fi
 done
