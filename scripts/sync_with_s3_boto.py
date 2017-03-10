@@ -23,6 +23,8 @@ def local_info():
     for f in local_files_to_check:
         h = hashlib.md5()
         h.update(open(f).read())
+        if "/__FIX_ON_S3_PUSH__" in f[2:]:
+            f = f.replace("/__FIX_ON_S3_PUSH__", "/")
         result[f[2:]] = {"ETag": h.hexdigest()}
     return result
 
@@ -38,9 +40,15 @@ def delete_objects(objs):
     bucket.delete_objects(Delete={"Objects":obj_list, "Quiet":False})
 
 def put_objects(objs):
+    r = re.compile(r'/([^/]+)$')
     for obj in objs:
         mime_type = my_guess_mimetype(obj)
-        f = open(obj)
+        try:
+            f = open(obj)
+        except IOError:
+            name2 = r.sub('/__FIX_ON_S3_PUSH__\\1', obj)
+            print "Couldn't open file. Maybe %s is the right name?" % name2
+            f = open(name2)
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
