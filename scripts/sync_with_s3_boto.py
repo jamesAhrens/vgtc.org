@@ -50,6 +50,8 @@ def put_objects(objs):
             print "Couldn't open file. Maybe %s is the right name?" % name2
             mime_type = my_guess_mimetype(name2)
             f = open(name2)
+        if "__FIX_ON_S3_PUSH__" in obj:
+            f = f.replace("/__FIX_ON_S3_PUSH__", "/")
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
