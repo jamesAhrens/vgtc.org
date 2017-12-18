@@ -44,8 +44,8 @@ William Ribarsky
 Charlotte Visualization Center
 University of North Carolina at Charlotte
 
-Robert Moorhead
-Visualization, Analysis, and Imaging Lab
+Robert Moorhead  
+Visualization, Analysis, and Imaging Lab  
 Mississippi State University
 
 Hanspeter Pfister  
@@ -56,8 +56,9 @@ Amitabh Varshney
 Department of Computer Science  
 University of Maryland, College Park
 
-<p>Klaus Mueller<br />Department of Computer Science<br />Stony Brook
-University<br /><br />
+Klaus Mueller  
+Department of Computer Science  
+Stony Brook University
 
 **APPOINTED OFFICERS**  
 
