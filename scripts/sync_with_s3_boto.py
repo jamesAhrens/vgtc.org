@@ -51,7 +51,7 @@ def put_objects(objs):
             mime_type = my_guess_mimetype(name2)
             f = open(name2)
         if "__FIX_ON_S3_PUSH__" in obj:
-            obj = obj.replace("/__FIX_ON_S3_PUSH__", "/")
+            obj = obj.replace("__FIX_ON_S3_PUSH__", "")
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
