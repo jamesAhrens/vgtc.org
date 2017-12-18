@@ -24,7 +24,7 @@ Cisco Systems
 **VICE CHAIR FOR CONFERENCES**  
 Mark Livingston  
 Naval Research Laboratory  
-[conferences@vgtc.org"](mailto:conferences@vgtc.org)
+[conferences@vgtc.org](mailto:conferences@vgtc.org)
 
 **DIRECTORS**  
 _Chair of the Technical Awards Committee for Virtual Reality_  
@@ -107,17 +107,17 @@ Georgia Institute of Technology
 
 **LIAISONS TO VGTC CONFERENCES**
 
-_Eurovis_
+_Eurovis_  
 Eduard Gröller  
 Institute of Computer Graphics and Algorithms  
 Vienna University of Technology
 
-_ISMAR_
+_ISMAR_  
 Dieter Schmalstieg  
 Institute for Computer Graphics and Vision  
 Technical University of Graz
 
-_VR_
+_VR_  
 Bernd Fröhlich  
 Faculty for Media  
 Bauhaus-University Weimar
