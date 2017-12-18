@@ -7,6 +7,7 @@ import json
 import hashlib
 import re
 import os
+import time
 
 from utils import *
 
@@ -36,8 +37,11 @@ def delete_objects(objs):
     if len(objs) == 0:
         return
     obj_list = [ {"Key": obj} for obj in objs ]
-    print 'bucket.delete_objects(Delete={"Objects":%s, "Quiet":False})' % repr(obj_list)
-    bucket.delete_objects(Delete={"Objects":obj_list, "Quiet":False})
+    while len(obj_list) > 0:
+        this_sublist = obj_list[:100]
+        obj_list = obj_list[100:]
+        print 'bucket.delete_objects(Delete={"Objects":%s, "Quiet":False})' % repr(this_sublist)
+        bucket.delete_objects(Delete={"Objects":this_sublist, "Quiet":False})
 
 def put_objects(objs):
     r = re.compile(r'/([^/]+)$')
@@ -100,43 +104,68 @@ def check_if_git_is_clean():
     print "Remote branch match matches local branch. Ok!"
     
 ##############################################################################
-   
-try:
-    git_branch_name = sys.argv[1]
-    target_bucket_name = sys.argv[2]
-    target_bucket = 's3://%s/' % target_bucket_name
-    debug=True
-except KeyError:
-    print "Expected branch and s3 bucket to be parameters 1 and 2"
-    print "Instead, got %s" % str(sys.argv[1:])
-    exit(1)
 
-try:
-    check_if_git_is_clean()
-except Exception, e:
-    print "Error:", str(e)
-    exit(1)
+if __name__ == "__main__":
+    try:
+        git_branch_name = sys.argv[1]
+        target_bucket_name = sys.argv[2]
+        target_bucket = 's3://%s/' % target_bucket_name
+        debug=True
+    except KeyError:
+        print "Expected branch and s3 bucket to be parameters 1 and 2"
+        print "Instead, got %s" % str(sys.argv[1:])
+        exit(1)
 
-session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
-resource = session.resource('s3')
-bucket = resource.Bucket(target_bucket_name)
+    if git_branch_name == "CLEAN":
+        print "ARE YOU SURE YOU WANT TO DELETE THE CONTENTS OF BUCKET %s ?" % target_bucket
+        f = raw_input()
+        if f != "YES":
+            print "sorry, you didn't yell YES. giving up"
+            exit(0)
+        print "WILL CLEAN BUCKET IN 10 SECONDS!"
+        time.sleep(5)
+        print "WILL CLEAN BUCKET IN 5 SECONDS!"
+        time.sleep(5)
+        print "WILL CLEAN BUCKET NOW"
+        session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
+        resource = session.resource('s3')
+        bucket = resource.Bucket(target_bucket_name)
 
-print "Syncing branch '%s' with s3 bucket '%s'" % (git_branch_name, target_bucket_name)
+        diff = diff_local_remote_buckets({}, bucket_info())
+        files_to_remove = diff['to_delete']
+        print "Removing %s files:" % len(files_to_remove)
+        for o in files_to_remove:
+            print "  %s" % o
+        delete_objects(files_to_remove)
+        print "done."
+        sys.exit(0)
 
-diff = diff_local_remote_buckets(local_info(), bucket_info())
+    try:
+        check_if_git_is_clean()
+    except Exception, e:
+        print "Error:", str(e)
+        exit(1)
 
-files_to_upload = diff['to_insert'] + diff['to_update']
-print "Uploading %s files:" % len(files_to_upload)
-for o in files_to_upload:
-    print "  %s" % o
-put_objects(files_to_upload)
+    session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
+    resource = session.resource('s3')
+    bucket = resource.Bucket(target_bucket_name)
 
-files_to_remove = diff['to_delete']
-print "Removing %s files:" % len(files_to_remove)
-for o in files_to_remove:
-    print "  %s" % o
-delete_objects(files_to_remove)
+    print "Syncing branch '%s' with s3 bucket '%s'" % (git_branch_name, target_bucket_name)
 
-files_to_keep = diff['same']
-print "Not touching %s other files." % len(files_to_keep)
-print "Done!"
+    diff = diff_local_remote_buckets(local_info(), bucket_info())
+
+    files_to_upload = diff['to_insert'] + diff['to_update']
+    print "Uploading %s files:" % len(files_to_upload)
+    for o in files_to_upload:
+        print "  %s" % o
+    put_objects(files_to_upload)
+
+    files_to_remove = diff['to_delete']
+    print "Removing %s files:" % len(files_to_remove)
+    for o in files_to_remove:
+        print "  %s" % o
+    delete_objects(files_to_remove)
+
+    files_to_keep = diff['same']
+    print "Not touching %s other files." % len(files_to_keep)
+    print "Done!"

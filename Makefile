@@ -23,7 +23,7 @@ staging: site
 # a little while. BEWARE
 
 staging-clean:
-	aws s3 rm s3://$(STAGING_BUCKET)/ --recursive
+	cd _site && ../scripts/sync_with_s3_boto.py CLEAN $(STAGING_BUCKET)
 
 production-clean:
 	aws s3 rm s3://$(PRODUCTION_BUCKET)/ --recursive
