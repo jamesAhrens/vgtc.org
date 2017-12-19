@@ -24,9 +24,9 @@ def local_info():
     for f in local_files_to_check:
         h = hashlib.md5()
         h.update(open(f).read())
-        if "/__FIX_ON_S3_PUSH__" in f[2:]:
+        if "__FIX_ON_S3_PUSH__" in f[2:]:
             print "LOCAL INFO CHANGE: %s" % f
-            f = f.replace("/__FIX_ON_S3_PUSH__", "/")
+            f = f.replace("__FIX_ON_S3_PUSH__", "")
         result[f[2:]] = {"ETag": h.hexdigest()}
     return result
 
