@@ -27,15 +27,15 @@ def local_info():
     for f in local_files_to_check:
         h = hashlib.md5()
         h.update(open(f).read())
-        result[f[2:]] = {"ETag": h.hexdigest()}
+        result[f[2:]] = {"ETag": h.hexdigest(), "name": f[2:]}
     return result
 
 def diff_local_remote_buckets(local, remote):
-    here_but_not_there = [f for f in local.iterkeys() if f not in remote]
-    there_but_not_here = [f for f in remote.iterkeys() if f not in local]
-    same = [k for (k, v) in local.iteritems()
+    here_but_not_there = [v for (f, v) in local.iteritems() if f not in remote]
+    there_but_not_here = [v for (f, v) in remote.iteritems() if f not in local]
+    same = [v for (k, v) in local.iteritems()
             if remote.get(k, {}).get("ETag", "")[1:-1] == v.get('ETag')]
-    diff = [k for (k, v) in local.iteritems()
+    diff = [v for (k, v) in local.iteritems()
             if (k in remote and remote.get(k, {}).get("ETag", "")[1:-1] <> v.get('ETag'))]
     return { "to_insert": here_but_not_there,
              "to_delete": there_but_not_here,

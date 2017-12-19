@@ -24,10 +24,10 @@ def local_info():
     for f in local_files_to_check:
         h = hashlib.md5()
         h.update(open(f).read())
+        path = f
         if "__FIX_ON_S3_PUSH__" in f[2:]:
-            print "LOCAL INFO CHANGE: %s" % f
             f = f.replace("__FIX_ON_S3_PUSH__", "")
-        result[f[2:]] = {"ETag": h.hexdigest()}
+        result[f[2:]] = {"ETag": h.hexdigest(), "Key": f[2:], "path": path}
     return result
 
 def set_mimetype(key, mime):
@@ -37,7 +37,7 @@ def set_mimetype(key, mime):
 def delete_objects(objs):
     if len(objs) == 0:
         return
-    obj_list = [ {"Key": obj} for obj in objs ]
+    obj_list = [ {"Key": obj["Key"]} for obj in objs ] # select only 'Key' subobject
     while len(obj_list) > 0:
         this_sublist = obj_list[:100]
         obj_list = obj_list[100:]
@@ -48,18 +48,17 @@ def put_objects(objs):
     r = re.compile(r'/([^/]+)$')
     for obj in objs:
         try:
-            mime_type = my_guess_mimetype(obj)
-            f = open(obj)
+            mime_type = my_guess_mimetype(obj["path"])
+            f = open(obj["path"])
         except IOError:
+            print obj
             name2 = r.sub('/__FIX_ON_S3_PUSH__\\1', obj)
-            print "Couldn't open file. Maybe %s is the right name?" % name2
+            print "Couldn't open file %s. Maybe %s is the right name?" % (obj, objs[obj]["old_file_name"])
             mime_type = my_guess_mimetype(name2)
             f = open(name2)
-        if "__FIX_ON_S3_PUSH__" in obj:
-            obj = obj.replace("__FIX_ON_S3_PUSH__", "")
-        print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
+        print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj["Key"]),
                                                                      repr(mime_type))
-        bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
+        bucket.put_object(Key=obj["Key"], Body=f, ContentType=mime_type)
 
 def run_cmd_get_lines(*cmd):
     return subprocess.check_output(list(cmd)).split('\n')
