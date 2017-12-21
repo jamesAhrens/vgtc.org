@@ -1,4 +1,4 @@
 #!/bin/sh
 . ./venv/bin/activate
-git checkout master
+git checkout production
 make $1
