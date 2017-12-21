@@ -10,6 +10,7 @@ url: "http://vgtc.org" # the base hostname & protocol for your site
 markdown: kramdown
 
 exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store']
+source: src
 
 defaults:
   -
