@@ -147,7 +147,8 @@ if __name__ == "__main__":
     #     print "Error:", str(e)
     #     exit(1)
 
-    session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
+    session = boto3.Session(aws_access_key_id=os.environ["aws_access_key_id"],
+                            aws_secret_access_key=os.environ["aws_secret_access_key"])
     resource = session.resource('s3')
     bucket = resource.Bucket(target_bucket_name)
 
