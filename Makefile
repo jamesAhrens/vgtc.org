@@ -12,7 +12,7 @@ site:
 	./scripts/fix_file_extensions.sh
 
 production: site
-	cd _site; && ../venv/bin/python ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
+	cd _site && ../venv/bin/python ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
 
 staging: site
 	cd _site && ../venv/bin/python ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
