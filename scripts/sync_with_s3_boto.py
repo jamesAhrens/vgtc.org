@@ -141,11 +141,11 @@ if __name__ == "__main__":
         print "done."
         sys.exit(0)
 
-    try:
-        check_if_git_is_clean()
-    except Exception, e:
-        print "Error:", str(e)
-        exit(1)
+    # try:
+    #     check_if_git_is_clean()
+    # except Exception, e:
+    #     print "Error:", str(e)
+    #     exit(1)
 
     session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
     resource = session.resource('s3')
