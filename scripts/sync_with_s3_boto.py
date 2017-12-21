@@ -159,7 +159,7 @@ if __name__ == "__main__":
     files_to_upload = diff['to_insert'] + diff['to_update']
     print "Uploading %s files:" % len(files_to_upload)
     for o in files_to_upload:
-        print "  %s" % o
+        print "  %s" % o["path"]
     put_objects(files_to_upload)
 
     files_to_remove = diff['to_delete']
