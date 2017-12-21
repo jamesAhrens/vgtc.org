@@ -6,3 +6,4 @@ virtualenv venv
 pip install boto3
 pip install python-frontmatter
 pip install PyYAML
+pip install python-magic
