@@ -295,11 +295,24 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 		</div>
 	      </div>
 	    </div>
-	    
-	    <div class="span4">
+
+	    <div class="span3">
+	      <div class="region region-footer-1">
+		<div id="block-block-12" class="block block-block">
+		  <h2> Bugs </h2>
+		  <div class="content">
+		    <p>Problems with this webpage?</p>
+		    <ul class="contact">
+		      <li>Contact <a href="mailto:{{page.contact}}">{{ page.contact }}</a></li>
+                      <li><a id="file-bug-anchor" href="#">file a bug</a></li>
+                      <li><a id="pull-request-anchor" href="#">suggest a fix</a>. <span class="faint clickable" id="debug-button">#</span></li>
+                    </ul>
+                  </div>
+		</div>
+	      </div>
 	    </div>
 	    
-	    <div class="span2">
+	    <div class="span3">
 	    </div>
 	    
 	  </div>  
@@ -339,6 +352,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       
     </div>
     <script src="/js/main.js"></script>
+    <script src="/js/common.js"></script>
+    <script>
+      runMainScript();
+    </script>
   </body>
 
 </html>
