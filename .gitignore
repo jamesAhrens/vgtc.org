@@ -5,3 +5,5 @@ _site/
 scripts/*.pyc
 /files
 *.swp
+venv
+__pycache__
