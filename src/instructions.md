@@ -26,7 +26,7 @@ to editing files in another user's repository.
 
 ## How to change an existing page
 
-Here's a video that illustrates the same process described in the text below (the video uses the ieeevis.org webpage, but the process works with vgtc.org's site as well):
+Here's a video that illustrates the same process described in the text below. This video was recorded using the ieeevis.org webpage as an example, but the process works with this site as well:
 
 <video width="480" controls>
 <source 
