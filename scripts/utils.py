@@ -19,7 +19,7 @@ def my_guess_mimetype(file_name):
         return magic.from_file(file_name, mime=True)
 
 def find_files():
-    return subprocess.check_output(['find', '.', '-type', 'f']).strip().split('\n')
+    return subprocess.check_output(['find', '.', '-type', 'f']).decode(encoding='UTF-8').strip().split('\n')
 
 def local_info():
     result = {}
@@ -31,12 +31,12 @@ def local_info():
     return result
 
 def diff_local_remote_buckets(local, remote):
-    here_but_not_there = [v for (f, v) in local.iteritems() if f not in remote]
-    there_but_not_here = [v for (f, v) in remote.iteritems() if f not in local]
-    same = [v for (k, v) in local.iteritems()
+    here_but_not_there = [v for (f, v) in local.items() if f not in remote]
+    there_but_not_here = [v for (f, v) in remote.items() if f not in local]
+    same = [v for (k, v) in local.items()
             if remote.get(k, {}).get("ETag", "")[1:-1] == v.get('ETag')]
-    diff = [v for (k, v) in local.iteritems()
-            if (k in remote and remote.get(k, {}).get("ETag", "")[1:-1] <> v.get('ETag'))]
+    diff = [v for (k, v) in local.items()
+            if (k in remote and remote.get(k, {}).get("ETag", "")[1:-1] != v.get('ETag'))]
     return { "to_insert": here_but_not_there,
              "to_delete": there_but_not_here,
              "same": same,
