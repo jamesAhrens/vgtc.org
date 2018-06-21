@@ -10,7 +10,7 @@ function getThisPath()
 
 function createPullRequestURL()
 {
-    return repoPath + "edit/master" + getThisPath() + ".md";
+    return repoPath + "edit/master/src" + getThisPath() + ".md";
 }
 
 function createFileBugURL()
