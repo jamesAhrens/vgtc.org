@@ -16,12 +16,12 @@ New York University
 [chair@vgtc.org](mailto:chair@vgtc.org)
 
 **VICE CHAIR**  
-Miriah Meyer
+Miriah Meyer  
 University of Utah
 [vice-chair@vgtc.org](mailto:vice-chair@vgtc.org)
 
 **VICE CHAIR FOR CONFERENCES**  
-Aditi Majumder
+Aditi Majumder  
 University of California at Irvine
 [conferences@vgtc.org](mailto:conferences@vgtc.org)
 
@@ -51,15 +51,15 @@ _International Liaison_
 Hans Hagen  
 Technical University of Kaiserslautern
 
-_Ethics Officer_
-Penny Rheingans 
+_Ethics Officer_  
+Penny Rheingans  
 University of Maryland Baltimore County
 
 _Publications Chair_  
 Tobias Isenberg  
 Inria
 
-_Industrial Relations Chair_
+_Industrial Relations Chair_  
 Jörn Kohlhammer  
 Fraunhofer IGD  
 
@@ -67,36 +67,36 @@ _Webmaster_
 Carlos Scheidegger  
 University of Arizona
 
-_Secretary_
+_Secretary_  
 Joao Comba  
 Universidade Federal do Rio Grande do Sul
 
 _Chair of the Technical Awards Committee for Visualization_;  
-_IEEE Service Awards Chair for ISMAR, Visualization, &amp; Virtual Reality_ 
-Holly Rushmeier
-Yale University
+_IEEE Service Awards Chair for ISMAR, Visualization, &amp; Virtual Reality_  
+Holly Rushmeier  
+Yale University  
 [vgtc-vis-awards@vgtc.org](mailto:vgtc-vis-awards@vgtc.org)
 
-_Chair of the Technical Awards Committee for Virtual Reality_
-Henry Fuchs
-University of North Carolina at Chapel Hill
+_Chair of the Technical Awards Committee for Virtual Reality_  
+Henry Fuchs  
+University of North Carolina at Chapel Hill  
 [vgtc-vr-awards@vgtc.org](mailto:vgtc-vr-awards@vgtc.org)
 
 **MEMBERS AT LARGE**
 
-Mark Livingston
+Mark Livingston  
 Naval Research Laboratory 
 
-Daniel Weiskopf
+Daniel Weiskopf  
 University of Stuttgart
 
-Victoria Interrante
+Victoria Interrante  
 University of Minnesota
 
 **LIAISONS TO VGTC CONFERENCES**
 
 _Eurovis_  
-Anders Ynnerman                                
+Anders Ynnerman  
 University of Linköping
 
 _ISMAR_  
