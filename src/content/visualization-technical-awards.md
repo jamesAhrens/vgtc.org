@@ -8,7 +8,7 @@ breadcrumb:
   - ['awards', '/about-us/vgtc-awards']
 ---
 
-The IEEE VGTC Technical Awards program recognizes individuals who have made a significant contribution to the community through their research. The VGTC Technical Awards chair for <a href="http://vgtc.org/content/virtual-and-augmented-reality-technical-awards">Virtual and Augmented Reality</a>&nbsp;is Arie Kaufman. VGTC members may nominate individuals by contacting him at <a href="mailto:vgtc-vr-awards@vgtc.org">vgtc-vr-awards@vgtc.org</a>. The VGTC Technical Awards chair for Visualization is Lawrence (Larry) Rosenblum. VGTC members may nominate individuals by contacting him at <a href="mailto:vgtc-vis-awards@vgtc.org">vgtc-vis-awards@vgtc.org.</a>
+The IEEE VGTC Technical Awards program recognizes individuals who have made a significant contribution to the community through their research. The VGTC Technical Awards chair for <a href="http://vgtc.org/content/virtual-and-augmented-reality-technical-awards">Virtual and Augmented Reality</a>&nbsp;is Henry Fuchs. VGTC members may nominate individuals by contacting him at <a href="mailto:vgtc-vr-awards@vgtc.org">vgtc-vr-awards@vgtc.org</a>. The VGTC Technical Awards chair for Visualization is Holly Rushmeier. VGTC members may nominate individuals by contacting her at <a href="mailto:vgtc-vis-awards@vgtc.org">vgtc-vis-awards@vgtc.org.</a>
   
 *2015*  
 Career: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_career15.pdf" target="_blank">Markus Gross</a>  
