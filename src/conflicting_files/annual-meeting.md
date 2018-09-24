@@ -1,7 +1,7 @@
 ---
 title: Annual Meeting
 layout: default
-permalink: /__FIX_ON_S3_PUSH__annual-meeting
+permalink: /annual-meeting
 breadcrumb:
   - ['Home', '/']
   - ['Annual Meeting', '/annual-meeting']
