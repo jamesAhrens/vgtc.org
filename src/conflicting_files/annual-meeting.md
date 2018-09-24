@@ -7,7 +7,9 @@ breadcrumb:
   - ['Annual Meeting', '/annual-meeting']
 ---
 
-* [Executive Committee Meeting, Phoenix, Arizona, 2017](/annual-meeting/2017/minutes)
+* [Executive Committee Meeting, Phoenix, Arizona, October 3, 2017](/annual-meeting/2017/minutes)
+* [Executive Commmitee Meeting, Baltimore, Maryland, October 25, 2016)(/annual-meeting/2016/minutes)
+* [Executive Commmitee Meeting, Chicago, Illinois, October 27, 2015](/annual-meeting/2015/minutes)
 * [Executive Committee Meeting, Paris, France, November 11, 2014](http://vgtc.org/sites/vgtc.org/attachments/exComMinutes/exComNotes112014.pdf) (Additional Material: [Agenda and state of the TC presentation](http://vgtc.org/sites/vgtc.org/attachments/exComMinutes/exComNotes112014-agenda.pdf))
 * [Executive Committee Meeting, Atlanta, GA, USA, October 15, 2013](http://vgtc.org/sites/vgtc.org/attachments/exComMinutes/exComNotes102013.pdf)
 * [Executive Committee Meeting, Seattle, WA, USA, October 16, 2012](http://vgtc.org/sites/vgtc.org/attachments/exComMinutes/exComNotes102012.pdf)
