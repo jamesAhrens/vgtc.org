@@ -11,6 +11,6 @@ TBD.
 ## Candidate statements
 
 * [James Ahrens](/election2018/james-ahrens-statement)
-* [Doug Bowman](/election2018/boug-bowman-statement)
+* [Doug Bowman](/election2018/doug-bowman-statement)
 
 
