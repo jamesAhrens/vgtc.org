@@ -29,23 +29,22 @@ Additionally, the voting ballot will offer an opportunity to write-in a candidat
 
 To vote you must be a member of both the IEEE Computer Society and the VGTC. To receive a voting ballot you must have opted-in to receiving communications from IEEE. The details below cover the steps to ensure that you meet both these criteria. Specifically: 1) how to become eligible to vote; 2) how to check your voter eligibility; 3) how to opt into IEEE communications to receive your ballot; and 4) how to cast your vote.
 
-**1. BECOME ELIGIBLE TO VOTE**<br/>
-Go to IEEE and create a new account, or log into an existing account:<br/> 
-[IEEE](https://www.ieee.org)
+### 1. BECOME ELIGIBLE TO VOTE
 
-While you are logged in, join IEEE Computer Society and the VGTC:<br/>
-[IEEE Computer Society](https://bit.ly/2qlT4yc)<br/>
-[VGTC](https://bit.ly/2xq9xXY)
+Go to [IEEE](https://www.ieee.org) and create a new account, or log into an existing account. While you are logged in, join [IEEE Computer Society](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=MEMC016) and the [VGTC](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYVG731).
 
 Membership in the IEEE Computer Society requires a yearly fee, while VGTC membership is free.
 
-**2. CHECK YOUR VOTER ELIGIBILITY**<br/>
+### 2. CHECK YOUR VOTER ELIGIBILITY
+
 To check if you are eligible to vote log into your IEEE account. On your *My Account* page click the link in the left settings-navigation bar that says *Membership and Subscription History*. To be eligible to vote you must have an active IEEE Computer Society membership and an active VGTC membership listed here.
 
-**3. OPT INTO IEEE COMMUNICATIONS**<br/>
+### 3. OPT INTO IEEE COMMUNICATIONS
+
 To receive a voting ballot you must be opted into receiving communications from IEEE. Log into your IEEE account. On your *My Account* page click the link in the left settings-navigation bar that says *Communication Preferences*. Click **Yes** for both *IEEE Survey requests* and *Local IEEE communications* (the top two radio buttons). 
 
-**4. VOTE**<br/>
+### 4. VOTE
+
 Later this year instructions for casting your ballot will be sent to all eligible voters with opt-in communication preferences. A link to the ballot will also be posted to this page. To cast your vote, you will need your IEEE CS member number. To obtain a misplaced number, please visit the [IEEE missing number page](https://bit.ly/2pchkET).
 
 ## WHAT IS THE VGTC AND THE ROLE OF THE VGTC CHAIR?
@@ -62,11 +61,10 @@ The VGTC Chair is the only elected position within VGTC that is determined direc
 
 A more detailed description of the role and function of technical committees can be found at the [IEEE CS website](https://bit.ly/2pflrAk). 
 
-To find out more about the VGTC, you can visit the VGTC website and review the VGTC charter:<br/>
-[VGTC](http://vgtc.org)<br/>
-[VGTC charter](http://vgtc.org/content/charter)<br/>
+To find out more about the VGTC, you can visit the VGTC website and review the VGTC charter:
 
-
+* [VGTC](http://vgtc.org)
+* [VGTC charter](http://vgtc.org/content/charter)
 
 **Best regards,**
 
