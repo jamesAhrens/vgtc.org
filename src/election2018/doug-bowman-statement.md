@@ -1,5 +1,5 @@
 ---
-title: Doiug Bowman's Statement on VGTC 2018 election
+title: Doug Bowman's Statement on VGTC 2018 election
 layout: default
 permalink: /election2018/doug-bowman-statement
 breadcrumb:
