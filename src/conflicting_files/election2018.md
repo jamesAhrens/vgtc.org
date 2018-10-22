@@ -6,13 +6,18 @@ breadcrumb:
   - ['Home', '/']
 ---
 
-Dear VGTC community,
+## UPDATE 
+Voting for the VGTC Chair will open on November 1, 2018 and run through November 26. When voting opens all eligible voters who have opted into receiving IEEE communications will receive an email with a link to the voting ballot. Additionally, the link will be posted on this page.
+
+
+
+## Dear VGTC community,
 
 The Visualization and Computer Graphics Technical Committee (VGTC) is electing a new chair and you are invited to cast your vote. The VGTC  Chair's term will run for two years, starting shortly after the election closes.
 
 This email contains information about the candidates, instructions for becoming eligible to vote (and checking eligibility), and the role of the VGTC and the VGTC Chair.
 
-The election will take place later this fall -- we will announce exact dates here once they are confirmed. Once the voting opens we will include a link to the election here. Eligible voters will also receive an email directly from IEEE.
+The election will take place November 1-26. Once the voting opens we will include a link to the election here. Eligible voters will also receive an email directly from IEEE.
 
 ## CANDIDATES
 
@@ -41,11 +46,11 @@ To check if you are eligible to vote log into your IEEE account. On your *My Acc
 
 ### 3. OPT INTO IEEE COMMUNICATIONS
 
-To receive a voting ballot you must be opted into receiving communications from IEEE. Log into your IEEE account. On your *My Account* page click the link in the left settings-navigation bar that says *Communication Preferences*. Click **Yes** for both *IEEE Survey requests* and *Local IEEE communications* (the top two radio buttons). 
+Due to GDPR regulations, to receive a voting ballot you must be opted into receiving communications from IEEE. Log into your IEEE account. On your *My Account* page click the link in the left settings-navigation bar that says *Communication Preferences*. Click **Yes** for both *IEEE Survey requests* and *Local IEEE communications* (the top two radio buttons). 
 
 ### 4. VOTE
 
-Later this year instructions for casting your ballot will be sent to all eligible voters with opt-in communication preferences. A link to the ballot will also be posted to this page. To cast your vote, you will need your IEEE CS member number. To obtain a misplaced number, please visit the [IEEE missing number page](https://bit.ly/2pchkET).
+On November 1 instructions for casting your ballot will be sent to all eligible voters with opt-in communication preferences. A link to the ballot will also be posted to this page. To cast your vote, you will need your IEEE CS member number. To obtain a misplaced number, please visit the [IEEE missing number page](https://bit.ly/2pchkET). Voting closes on November 26.
 
 ## WHAT IS THE VGTC AND THE ROLE OF THE VGTC CHAIR?
 
