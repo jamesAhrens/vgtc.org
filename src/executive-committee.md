@@ -17,12 +17,12 @@ New York University
 
 **VICE CHAIR**  
 Miriah Meyer  
-University of Utah
+University of Utah  
 [vice-chair@vgtc.org](mailto:vice-chair@vgtc.org)
 
 **VICE CHAIR FOR CONFERENCES**  
 Aditi Majumder  
-University of California at Irvine
+University of California at Irvine  
 [conferences@vgtc.org](mailto:conferences@vgtc.org)
 
 **DIRECTORS**   
