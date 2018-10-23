@@ -7,6 +7,7 @@ breadcrumb:
   - ['Annual Meeting', '/annual-meeting']
 ---
 
+* Executive Committee Meeting, Berlin, Germany, October 23, 2018 (pending)
 * [Executive Committee Meeting, Phoenix, Arizona, October 3, 2017](/annual-meeting/2017/minutes)
 * [Executive Committee Meeting, Baltimore, Maryland, October 25, 2016](/annual-meeting/2016/minutes)
 * [Executive Committee Meeting, Chicago, Illinois, October 27, 2015](/annual-meeting/2015/minutes)
