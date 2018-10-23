@@ -10,6 +10,18 @@ breadcrumb:
 
 The IEEE VGTC Technical Awards program recognizes individuals who have made a significant contribution to the community through their research. The VGTC Technical Awards chair for Visualization is Holly Rushmeier. VGTC members may nominate individuals by contacting her at <a href="mailto:vgtc-vis-awards@vgtc.org">vgtc-vis-awards@vgtc.org.</a>
   
+*2018*  
+Career: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_career18.pdf" target="_blank">Sheelagh Carpendale</a>  
+Technical Achievement: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_tech18.pdf" target="_blank">Anders Ynnerman</a>
+
+*2017*  
+Career: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_career17.pdf" target="_blank">Charles Hansen</a>  
+Technical Achievement: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_tech17.pdf" target="_blank">Jeffrey Heer</a>
+
+*2016*  
+Career: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_career16.pdf" target="_blank">John Dill</a>  
+Technical Achievement: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_tech16.pdf" target="_blank">David Ebert</a>
+
 *2015*  
 Career: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_career15.pdf" target="_blank">Markus Gross</a>  
 Technical Achievement: <a href="http://vgtc.org/sites/vgtc.org/attachments/awards/vis_tech15.pdf" target="_blank">Tamara Munzner</a>
