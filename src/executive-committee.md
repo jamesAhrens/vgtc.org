@@ -108,7 +108,7 @@ Bernd Fröhlich
 Bauhaus-University Weimar
 
 _VIS_  
-Lisa Avila
+Lisa Avila  
 Kitware
 
 **EX-OFFICIO MEMBERS**
