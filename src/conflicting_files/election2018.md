@@ -6,8 +6,9 @@ breadcrumb:
   - ['Home', '/']
 ---
 
-## UPDATE 
-Voting for the VGTC Chair will open on November 1, 2018 and run through November 26. When voting opens all eligible voters who have opted into receiving IEEE communications will receive an email with a link to the voting ballot. Additionally, the link will be posted on this page.
+## UPDATE
+
+Voting is now open. The poll will close November 26, 2018 at 5:00pm Pacific time. VOTE HERE: <https://www.surveymonkey.com/r/9PGZ57R>
 
 
 
