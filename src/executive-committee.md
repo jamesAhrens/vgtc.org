@@ -11,8 +11,8 @@ Interested in joining VGTC? Please visit the
 [membership page](http://vgtc.vgtc.org/about-us/membership).
 
 **CHAIR**  
-Claudio T. Silva  
-New York University  
+James Ahrens  
+Los Alamos National Laboratory 
 [chair@vgtc.org](mailto:chair@vgtc.org)
 
 **VICE CHAIR**  
@@ -26,9 +26,6 @@ University of California at Irvine
 [conferences@vgtc.org](mailto:conferences@vgtc.org)
 
 **DIRECTORS**   
-Arie Kaufman  
-Stony Brook University
-
 Robert Moorhead  
 Mississippi State University
 
@@ -40,6 +37,9 @@ University of Maryland, College Park
 
 Klaus Mueller  
 Stony Brook University
+
+Claudio Silva
+New York University
 
 **APPOINTED OFFICERS**  
 
@@ -104,8 +104,8 @@ Dieter Schmalstieg
 Technical University of Graz
 
 _VR_  
-Bernd Fröhlich  
-Bauhaus-University Weimar
+Benjamin Lok
+University of Florida
 
 _VIS_  
 Lisa Avila  
@@ -118,5 +118,5 @@ Torsten Möller
 University of Vienna
 
 _Editor-in-Chief of [IEEE TVCG](http://www.computer.org/portal/web/tvcg)_  
-Leila de Floriani  
-University of Genova
+Klaus Mueller  
+Stony Brook University
